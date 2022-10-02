@@ -30,7 +30,7 @@ const BasicForm = (props) => {
 	} = useForm(value => value.includes('@'));
 	
 	let formIsValid = false
-	if (nameIsValid, lastNameIsValid, emailIsValid) {
+	if (nameIsValid && lastNameIsValid && emailIsValid) {
 		formIsValid = true
 	}
 	
